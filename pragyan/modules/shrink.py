@@ -56,11 +56,11 @@ async def token_handler(client, message):
     join = await subscribe(client, message)
     if join == 1:
         return
-    chat_id = "save_restricted_content_bots"
+    chat_id = "vrindavanneeko16008"
     msg = await app.get_messages(chat_id, 796)
     user_id = message.chat.id
     if len(message.command) <= 1:
-        image_url = "https://i.postimg.cc/v8q8kGyz/startimg-1.jpg"
+        image_url = "https://graph.org/file/1f1c857d57b885d65dfb5-1648fc3faf55dbd1d2.jpg"
         join_button = InlineKeyboardButton("Join Channel", url="https://t.me/vrindavanneeko16008")
         premium = InlineKeyboardButton("Get Premium", url="https://t.me/pragyan")   
         keyboard = InlineKeyboardMarkup([
