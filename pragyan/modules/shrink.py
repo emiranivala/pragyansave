@@ -14,8 +14,8 @@ from config import MONGO_DB, WEBSITE_URL, AD_API, LOG_GROUP
  
  
 tclient = AsyncIOMotorClient(MONGO_DB)
-tdb = tclient["telegram_bot"]
-token = tdb["tokens"]
+tdb = tclient["telegrambbbbot"]
+token = tdb["tokenszz"]
  
  
 async def create_ttl_index():
