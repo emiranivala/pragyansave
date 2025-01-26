@@ -6,8 +6,8 @@ import random
 import requests
 import string
 import aiohttp
-from devgagan import app
-from devgagan.core.func import *
+from pragyan import app
+from pragyan.core.func import *
 from datetime import datetime, timedelta
 from motor.motor_asyncio import AsyncIOMotorClient
 from config import MONGO_DB, WEBSITE_URL, AD_API, LOG_GROUP  
