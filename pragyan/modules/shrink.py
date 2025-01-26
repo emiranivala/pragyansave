@@ -6,8 +6,8 @@ import random
 import requests
 import string
 import aiohttp
-from pragyan import app
-from pragyan.core.func import *
+from devgagan import app
+from devgagan.core.func import *
 from datetime import datetime, timedelta
 from motor.motor_asyncio import AsyncIOMotorClient
 from config import MONGO_DB, WEBSITE_URL, AD_API, LOG_GROUP  
@@ -56,7 +56,7 @@ async def token_handler(client, message):
     join = await subscribe(client, message)
     if join == 1:
         return
-    chat_id = "vrindavanneeko16008"
+    chat_id = "save_restricted_content_bots"
     msg = await app.get_messages(chat_id, 796)
     user_id = message.chat.id
     if len(message.command) <= 1:
